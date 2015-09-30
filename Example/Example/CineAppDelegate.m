@@ -7,6 +7,10 @@
 //
 
 #import "CineAppDelegate.h"
+#import "OpenUDID.h"
+#import "Global.h"
+
+#import "GlobalWebSocketManager.h"
 
 @implementation CineAppDelegate
 
@@ -24,6 +28,14 @@
         UIViewController *login = root.topViewController;
         [login performSegueWithIdentifier:@"mainNoAnimation" sender:self];
     }
+
+
+    //start websocket
+    [GlobalWebSocketManager sharedInstance].tryFetchCount = 0;
+    [GlobalWebSocketManager sharedInstance].roomForJoin =  NBA_NOROOM;
+    
+    [GlobalWebSocketManager sharedInstance].openUDID = [OpenUDID value];
+    [GlobalWebSocketManager sharedInstance].host = connectHost;
 
     return YES;
 }

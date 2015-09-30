@@ -48,6 +48,8 @@
     _cineClient = cine;
     _cineStreamId = streamId;
 
+    self.roomId = [defaults stringForKey:@"JRSTV_ROOM_ID"];
+
     [self updateStatus:@"Configuring stream using jrs.tv..."];
     [cine getStream:streamId withCompletionHandler:^(NSError *error, CineStream *stream) {
         if (error) {
@@ -55,6 +57,7 @@
         } else {
             self.publishUrl = [stream publishUrl];
             self.publishStreamName = [stream publishStreamName];
+            self.danmu = [stream danmu];
 
             // once we've fully-configured our properties, we can enable the
             // UI controls on our view
