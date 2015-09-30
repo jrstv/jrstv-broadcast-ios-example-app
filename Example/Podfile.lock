@@ -64,16 +64,16 @@ PODS:
 
 DEPENDENCIES:
   - ASIHTTPRequest (~> 1.8.2)
-  - cineio-broadcast-ios (from `/Users/WilliamShi/Desktop/HoopMediaStreamer/jrstv/jrstv-broadcast-ios`)
+  - cineio-broadcast-ios (from `/Users/soplwang/Projects/JRs.tv/jrstv-broadcast-ios`)
   - socket.IO (~> 0.5.2)
   - SocketRocket (~> 0.3.1-beta2)
-  - VideoCore (from `/Users/WilliamShi/Desktop/HoopMediaStreamer/jrstv/VideoCore`)
+  - VideoCore (from `/Users/soplwang/Projects/JRs.tv/VideoCore`)
 
 EXTERNAL SOURCES:
   cineio-broadcast-ios:
-    :path: /Users/WilliamShi/Desktop/HoopMediaStreamer/jrstv/jrstv-broadcast-ios
+    :path: /Users/soplwang/Projects/JRs.tv/jrstv-broadcast-ios
   VideoCore:
-    :path: /Users/WilliamShi/Desktop/HoopMediaStreamer/jrstv/VideoCore
+    :path: /Users/soplwang/Projects/JRs.tv/VideoCore
 
 SPEC CHECKSUMS:
   AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
