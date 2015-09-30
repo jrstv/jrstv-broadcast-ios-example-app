@@ -44,11 +44,11 @@
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSString *streamId = [@[[defaults stringForKey:@"JRSTV_ROOM_ID"], [defaults stringForKey:@"JRSTV_ROOM_PASS"]] componentsJoinedByString:@":"];
+    
+    self.roomId = [defaults stringForKey:@"JRSTV_ROOM_ID"];
 
     _cineClient = cine;
     _cineStreamId = streamId;
-
-    self.roomId = [defaults stringForKey:@"JRSTV_ROOM_ID"];
 
     [self updateStatus:@"Configuring stream using jrs.tv..."];
     [cine getStream:streamId withCompletionHandler:^(NSError *error, CineStream *stream) {
