@@ -32,7 +32,6 @@
 		78BF51BA1B81B4A5006CB47E /* JRSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BF51B91B81B4A5006CB47E /* JRSNavigationController.m */; };
 		78E7C5401B7708CB0014C632 /* JRSLoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E7C53F1B7708CB0014C632 /* JRSLoginTableViewController.m */; };
 		78FE21351B749B2B00B3EC8E /* JRSSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FE21341B749B2B00B3EC8E /* JRSSettingsTableViewController.m */; };
-		ABC127451BBAB35B00FCE3D9 /* cineio-settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABC127441BBAB35B00FCE3D9 /* cineio-settings.plist */; settings = {ASSET_TAGS = (); }; };
 		ABC127641BBAB7C500FCE3D9 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC127621BBAB7C500FCE3D9 /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F1B189ABA9E24A2C8C3F0B46 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D51065605F54399B601FB91 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -86,7 +85,6 @@
 		78FE21341B749B2B00B3EC8E /* JRSSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSSettingsTableViewController.m; sourceTree = "<group>"; };
 		8450E88C13C78FC240DC1BCB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8D51065605F54399B601FB91 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABC127441BBAB35B00FCE3D9 /* cineio-settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "cineio-settings.plist"; sourceTree = "<group>"; };
 		ABC127621BBAB7C500FCE3D9 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
 		ABC127631BBAB7C500FCE3D9 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -184,7 +182,6 @@
 		00C5E16D193FB3AC009DA7B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ABC127441BBAB35B00FCE3D9 /* cineio-settings.plist */,
 				00C5E16E193FB3AC009DA7B9 /* Example-Info.plist */,
 				00C5E16F193FB3AC009DA7B9 /* InfoPlist.strings */,
 				00C5E172193FB3AC009DA7B9 /* main.m */,
@@ -307,7 +304,6 @@
 				00C5E19F193FB74B009DA7B9 /* Podfile in Resources */,
 				00C5E1A5193FB9EC009DA7B9 /* SAMPLE-cineio-settings.plist in Resources */,
 				00C5E17D193FB3AC009DA7B9 /* Main_iPad.storyboard in Resources */,
-				ABC127451BBAB35B00FCE3D9 /* cineio-settings.plist in Resources */,
 				00C5E182193FB3AC009DA7B9 /* Images.xcassets in Resources */,
 				00C5E17A193FB3AC009DA7B9 /* Main_iPhone.storyboard in Resources */,
 				00C5E171193FB3AC009DA7B9 /* InfoPlist.strings in Resources */,
