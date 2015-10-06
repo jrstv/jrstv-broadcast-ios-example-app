@@ -141,7 +141,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection footerTitle="JRs’TV 1.1.1" id="Ssf-S0-Kld" userLabel="Logout">
+                            <tableViewSection footerTitle="JRs’TV 1.1.2" id="Ssf-S0-Kld" userLabel="Logout">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LogoutCell" textLabel="vLv-yQ-9CX" rowHeight="48" style="IBUITableViewCellStyleDefault" id="jEi-oV-oQ9" userLabel="LogoutCell">
                                         <rect key="frame" x="0.0" y="325.5" width="320" height="48"/>
@@ -247,7 +247,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection footerTitle="JRs’TV 1.1.1" id="DIE-qI-d5C" userLabel="Login">
+                            <tableViewSection footerTitle="JRs’TV 1.1.2" id="DIE-qI-d5C" userLabel="Login">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LoginCell" textLabel="84Q-bg-d9c" rowHeight="48" style="IBUITableViewCellStyleDefault" id="TAL-Ac-25R" userLabel="LoginCell">
                                         <rect key="frame" x="0.0" y="229.5" width="320" height="48"/>
