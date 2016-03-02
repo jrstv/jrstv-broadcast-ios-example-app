@@ -8,9 +8,8 @@
 
 #import "CineAppDelegate.h"
 #import "OpenUDID.h"
-#import "Global.h"
-
-#import "GlobalWebSocketManager.h"
+#import <cineio/Global.h>
+#import <cineio/GlobalWebSocketManager.h>
 
 @implementation CineAppDelegate
 

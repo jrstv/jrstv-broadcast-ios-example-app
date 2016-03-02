@@ -103,6 +103,8 @@
             [[UIApplication sharedApplication] setIdleTimerDisabled:NO];
 
         } else {
+            [self updateStatus:@"Got stream url, prepare publishing..."];
+            NSLog(@"Stream Url: %@/%@", [stream publishUrl], [stream publishStreamName]);
             self.publishUrl = [stream publishUrl];
             self.publishStreamName = [stream publishStreamName];
             // start the actual stream

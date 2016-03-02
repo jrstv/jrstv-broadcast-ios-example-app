@@ -30,7 +30,7 @@
 		00D226F419529E700081E1CD /* CineTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D226F319529E700081E1CD /* CineTabBarController.m */; };
 		00D226F619529F750081E1CD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D226F519529F750081E1CD /* MediaPlayer.framework */; };
 		78BF51BA1B81B4A5006CB47E /* JRSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BF51B91B81B4A5006CB47E /* JRSNavigationController.m */; };
-		78D42C9C1BBBB6B600B0BAEF /* cineio-settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78D42C9B1BBBB6B600B0BAEF /* cineio-settings.plist */; settings = {ASSET_TAGS = (); }; };
+		78D42C9C1BBBB6B600B0BAEF /* cineio-settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78D42C9B1BBBB6B600B0BAEF /* cineio-settings.plist */; };
 		78E7C5401B7708CB0014C632 /* JRSLoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E7C53F1B7708CB0014C632 /* JRSLoginTableViewController.m */; };
 		78FE21351B749B2B00B3EC8E /* JRSSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FE21341B749B2B00B3EC8E /* JRSSettingsTableViewController.m */; };
 		ABC127641BBAB7C500FCE3D9 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC127621BBAB7C500FCE3D9 /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -233,6 +233,7 @@
 				00C5E160193FB3AC009DA7B9 /* Frameworks */,
 				00C5E161193FB3AC009DA7B9 /* Resources */,
 				E5BEB6DC29764CAA861D8018 /* Copy Pods Resources */,
+				C77F17EAD24FAF3D35FDEE58 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -338,6 +339,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C77F17EAD24FAF3D35FDEE58 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E5BEB6DC29764CAA861D8018 /* Copy Pods Resources */ = {

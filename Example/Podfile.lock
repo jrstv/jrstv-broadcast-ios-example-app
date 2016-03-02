@@ -1,23 +1,23 @@
 PODS:
-  - AFNetworking (2.6.0):
-    - AFNetworking/NSURLConnection (= 2.6.0)
-    - AFNetworking/NSURLSession (= 2.6.0)
-    - AFNetworking/Reachability (= 2.6.0)
-    - AFNetworking/Security (= 2.6.0)
-    - AFNetworking/Serialization (= 2.6.0)
-    - AFNetworking/UIKit (= 2.6.0)
-  - AFNetworking/NSURLConnection (2.6.0):
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.6.0):
+  - AFNetworking/NSURLSession (2.6.3):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.6.0)
-  - AFNetworking/Security (2.6.0)
-  - AFNetworking/Serialization (2.6.0)
-  - AFNetworking/UIKit (2.6.0):
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - ASIHTTPRequest (1.8.2):
@@ -64,19 +64,19 @@ PODS:
 
 DEPENDENCIES:
   - ASIHTTPRequest (~> 1.8.2)
-  - cineio-broadcast-ios (from `/Users/soplwang/Projects/JRs.tv/jrstv-broadcast-ios`)
+  - cineio-broadcast-ios (from `../../jrstv-broadcast-ios`)
   - socket.IO (~> 0.5.2)
   - SocketRocket (~> 0.3.1-beta2)
-  - VideoCore (from `/Users/soplwang/Projects/JRs.tv/VideoCore`)
+  - VideoCore (from `../../VideoCore`)
 
 EXTERNAL SOURCES:
   cineio-broadcast-ios:
-    :path: /Users/soplwang/Projects/JRs.tv/jrstv-broadcast-ios
+    :path: ../../jrstv-broadcast-ios
   VideoCore:
-    :path: /Users/soplwang/Projects/JRs.tv/VideoCore
+    :path: ../../VideoCore
 
 SPEC CHECKSUMS:
-  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
   boost: 6c5c8d8daef26ac83c1e1c00ad14de62b80161d7
   cineio-broadcast-ios: beed9b034a2457d940350828cbe1a64adb4d2af0
@@ -87,4 +87,4 @@ SPEC CHECKSUMS:
   UriParser-cpp: cbbe00080ee432ec4833dca863a7fc83adc9b01a
   VideoCore: ee91bb8b71919ac7a1cbc752b72272fc53a0567f
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0
